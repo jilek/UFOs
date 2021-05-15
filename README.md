@@ -68,4 +68,14 @@ A final test was made for the 'Shape' field, as shown in Figure 4 below. The thr
 
 ## Summary
 
-The project was completed, and testing showed that it matches the requirements. The time estimate more closely matched the actual time required to complete the project. The most difficult part of this project by far was getting the 'arrow function' to work properly. It's very difficult to debug code like that without a real symbolic debugger which can show actual values of variables and passes through loops. Because of this obstacle, I created another version of the code where a complete function was passed to the filter() method, instead of a cryptic arrow function. In this 'real' function, I could use 'console.log' statements to print out intermediate values as they appeared during the filtering process. Once that code was thoroughly debugged, I was able to strip down the 'real' function into an 'arrow' function.
+The project was completed, and testing showed that it matches the requirements. The time estimate more closely matched the actual time required to complete the project.
+
+#### One Drawback of this Project
+
+The most difficult part of this project by far was getting the 'arrow function' to work properly. It's very difficult to debug code like that without a real symbolic debugger which can show actual values of variables and passes through loops. Because of this obstacle, I created another version of the code where a complete function was passed to the filter() method, instead of a cryptic arrow function. In this 'real' function, I could use 'console.log' statements to print out intermediate values as they appeared during the filtering process. Once that code was thoroughly debugged, I was able to strip down the 'real' function into an 'arrow' function.
+
+#### Recommendations for Improvement
+
+1. Our sample JSON file data.js was fairly small. So any updates of the table are fairly low-impact list updates to the browser. For larger datasets, the code should 'chunk' the results, and allow the user to jump directly to a given 'page' of results.
+
+2. Linking this code to a geographical / map output format would have been much more interesting.
